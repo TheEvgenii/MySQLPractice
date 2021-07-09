@@ -31,7 +31,6 @@ order by PercentPopulationInfeccted desc
 
 -- Showing Countries with Hiest Death Count per Population
 
--- Let's Break Thinh Down
 
 Select Location, MAX(cast(Total_deaths as SIGNED)) as TotalDeathCount 
 From PortfolioProject.coviddeatf
